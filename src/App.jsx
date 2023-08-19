@@ -4,6 +4,7 @@ import Sign from "./pages/Sign";
 import Home from "./pages/Home";
 import "./assets/css/normalize.css";
 import "./assets/css/main.css"
+import Blog from "./pages/Blog";
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <Router>
      <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/sign-up" element={<Sign />} />
+      <Route path="/cources" element={<About />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/login" element={<Sign />} />
      </Routes>
     </Router>
     

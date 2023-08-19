@@ -1,12 +1,9 @@
+import Header from "../components/Header"
+
 const Home = () => {
   return (
     <>
-    
-    <div>
-      <div className="container">
-        <div>Home</div>
-      </div>
-    </div>
+        <Header />
     </>
   )
 }
