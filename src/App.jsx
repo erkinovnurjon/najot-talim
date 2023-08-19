@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Sign from "./pages/Sign";
 import "./assets/css/normalize.css";
+import "./assets/css/main.css"
 
 
 function App() {
