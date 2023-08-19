@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato,sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1182px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+ul{
+   list-style:none; 
+}
+a{
+    text-decoration: none;
+}
