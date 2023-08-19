@@ -3,7 +3,7 @@
 
 .header{
       width: 100%;
-      background-color: rgb(213, 218, 227);
+      background-color: #f1f0ee;
      
      position: fixed;
      
@@ -36,6 +36,7 @@
       height: 40px;
       border-radius: 30px;
       border: none;
+      background-color: white;
 }
 .nav-right button:hover{
       border: 1px solid #f18f35;;

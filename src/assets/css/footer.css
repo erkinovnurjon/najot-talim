@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+.footer{
+      width: 100%;
+      padding-top: 30px;
+      background-color: #f1f0ee;
+      margin-bottom: 0;
+      margin-top: 100px;
+}
+.footer-top{
+     display: flex;
+     gap: 30px;
+     align-items: center;
+     padding-bottom: 30px;
+      
+}
+.footer-center{
+      display: flex;
+      gap: 20px;
+      justify-content: start;
+      align-items: center;
+
+}
+.top-one{
+      width: 240px;
+
+}
+.top-one p{
+      font-size: 14px;
+      color: #607987;
+      font-family: 'Lato' , sans-serif;
+}
+.footer-logo{
+      width: 200px;
+}
+.top-three{
+      width: 170px;
+      margin-left: 40px;
+}
+.top-three h3{
+      color: #0F1826;
+      font-family: 'Lato' , sans-serif;
+      font-size: 16px;
+}
+.top-three li{
+      font-size: 14px;
+      color: #607987;
+      font-family: 'Lato' , sans-serif;
+      padding: 8px 0;
+}
+.top-three h3{
+      margin-top: 0;
+}
+.footer-bottom{
+      display: flex;
+      gap: 30px;
+      margin-top: 50px;
+      align-items: center;
+}
+.bottom-three{
+      display: flex;
+      gap: 30px;
+      align-items: center;
+}
+.bottom-three h3{
+      color: #0F1826;
+      font-family: 'Lato' , sans-serif;
+      font-size: 16px;
+      padding: 5px 0;
+}
+.bottom-three p{
+      font-size: 14px;
+      color: #607987;
+      font-family: 'Lato' , sans-serif;
+}
+.footer-input input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    
+    border: none;
+    background-color:#f1f0ee;
+}
+.footer-input input[type="tel"]:focus {
+  
+    outline: none;
+}
+.lines{
+      padding: 300px 0;
+}

@@ -2,6 +2,7 @@ import Cursorhover from "../components/Cursorhover";
 import Hovertitle from "../components/Hovertitle";
 import Aboutcard from "../components/Aboutcard";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 const About = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const About = () => {
           <Aboutcard/>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
