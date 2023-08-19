@@ -2,13 +2,14 @@
 import { Link } from "react-router-dom";
 
 const Aboutcard = () => {
+
   return (
     <div>
       <ul className="about__card-list container">
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">MArketing</span>
+              <span className="about__card-link-top-title">Marketing</span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -33,7 +34,7 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Dizayn</span>
+              <span className="about__card-link-top-title dizayn" >Dizayn</span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -58,7 +59,9 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Dasturlash</span>
+              <span className="about__card-link-top-title Dasturlash">
+                Dasturlash
+              </span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -87,7 +90,7 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Dizayn</span>
+              <span className="about__card-link-top-title dizayn">Dizayn</span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -112,7 +115,9 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Dasturlash</span>
+              <span className="about__card-link-top-title Dasturlash">
+                Dasturlash
+              </span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -143,7 +148,9 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Dasturlash</span>
+              <span className="about__card-link-top-title Dasturlash">
+                Dasturlash
+              </span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -167,7 +174,7 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Boshqa</span>
+              <span className="about__card-link-top-title Boshqa">Boshqa</span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
@@ -192,7 +199,7 @@ const Aboutcard = () => {
         <li className="about__card-list-item">
           <Link className="about__card-link">
             <div className="about__card-link-top">
-              <span className="about__card-link-top-title">Boshqa</span>
+              <span className="about__card-link-top-title Boshqa">Boshqa</span>
             </div>
             <div className="about__card-link-bottom">
               <div className="about__card-link-bottom-left">
