@@ -2,20 +2,28 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+}
+.about__card-list-item:hover{
+    box-shadow: 0 2px 16px 3px rgba(0,0,0,.1);
 }
 .about__card-list{   
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
     margin: 0 -31px -32px 0;
-
-
     &-item{
-    width: 500px;
+    width: calc(50% - 31px);
     border-radius: 4px;
     padding: 24px;
     background-color: #f9f8f7;
-    transition: box-shadow .3s ease;
+    transition: box-shadow .2s ease;
+    transition: calc(0.3s);
     margin-bottom: 32px;
+    }
+    :not(:last-child){
+        margin-right: 31px;
     }
 }
 
@@ -66,4 +74,8 @@
     width: 208px;
     height: 208px;
 }
+}
+.about__card-link-bottom-right-images{
+       width: 208px;
+    height: 208px; 
 }
