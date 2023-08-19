@@ -35,6 +35,7 @@
       height: 40px;
       border-radius: 30px;
       border: none;
+      background-color: white;
 }
 .nav-right button:hover{
       border: 1px solid #f18f35;;
