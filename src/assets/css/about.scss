@@ -1,0 +1,80 @@
+.breadcrumb{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    align-items: center;
+    display: flex; 
+    width: 200px;
+    gap: 7px;   
+    margin-top: 30px;   
+}
+.breadcrumb__link-item{
+    line-height: 22px;
+    font-weight: 500;
+    color: #c4c4c4;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.breadcrumb__link-img{
+    width: 12px;
+    height: 5px;
+
+}
+.breadcrumb__link{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.hover_title{
+    margin-top: 30px;
+    &-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.hover_title-top-text{
+    line-height: 56px;
+    letter-spacing: -.02em;
+    margin: 0;
+    font-style: normal;
+    font-size: 32px!important;
+    line-height: 40px;
+    text-decoration: none;
+    color: #0f1826;
+}
+.hover_title-top-input{
+    width: 350px;
+    padding: 15px 42px 15px 15px;
+    border: 0;
+    background-color: #f7f7f5;
+    border-radius: 100px;
+    background-image: url('https://najottalim.uz/_next/static/media/icon-search.75f99afb.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}
+.hover__title-list{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.hover__title-list-item:not(:last-child){
+    margin-right: 16px;
+}
+.hover__title-list-button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid transparent;
+    padding: 15px 24px;
+    border-radius: 32px;
+    background-color: #f7f7f5;
+    color: rgba(0,0,0,.7);
+    cursor: pointer;
+    transition: all .3s ease; 
+    &:hover{
+    background-color: #ba8d5b;
+    color: #fff;
+    }
+}

@@ -1,8 +1,9 @@
-import "./assets/css/normalize.css";
 import { BrowserRouter as Router , Route , Routes} from "react-router-dom"
 import About from "./pages/About";
 import Sign from "./pages/Sign";
 import Home from "./pages/Home";
+import "./assets/css/normalize.css";
+import "./assets/css/main.css"
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/sign" element={<Sign />} />
+      <Route path="/sign-up" element={<Sign />} />
      </Routes>
     </Router>
     

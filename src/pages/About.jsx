@@ -1,22 +1,18 @@
+import Cursorhover from "../components/Cursorhover";
+import Hovertitle from "../components/Hovertitle";
+import Aboutcard from "../components/Aboutcard";
 const About = () => {
   return (
     <>
       <div className="container">
-        <div className="courses__hover">
-          <ul>
-            <li>Bosh sahifa</li>
-            <li>Kurslar</li>
-          </ul>
-        </div>
+        <Cursorhover />
 
         <div className="hover_title">
-          <div className="hover_title-top">
-            <h1>Barcha o‘quv kurslari </h1>
-            <input type="search" placeholder="izlashBarcha o‘quv kurslari "/>
-          </div>
-          <div className="hover_title-bottom">
+          <Hovertitle />
+        </div>
 
-          </div>
+        <div className="about__card">
+          <Aboutcard/>
         </div>
       </div>
     </>
