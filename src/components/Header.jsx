@@ -1,22 +1,11 @@
+import Navbar from "./Navbar"
+
 const Header = () => {
   return (
     <>
-      <div>
+      <div className="header">
             <div className="container">
-              <div className="navbar">
-                <div>
-                  <img className="navbar-logo" src="https://najottalim.uz/_next/static/media/logo-img.2935c262.svg" alt="logo" />
-                </div>
-                <div>
-                  <span>
-                    Kurslar
-                    </span>
-                  <span>Blog</span>
-                  <button>Kirish</button>
-                </div>
-
-              </div>
-
+              <Navbar />
             </div>
       </div>
     </>
