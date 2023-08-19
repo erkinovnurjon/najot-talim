@@ -1,15 +1,15 @@
-import React from 'react'
-import Hero from '../HomeComponent/Hero'
-import Courses from '../HomeComponent/Courses'
+import React from "react";
+import Hero from "../HomeComponent/Hero";
+import Advantag from "../HomeComponent/Advantag";
 
 const Home = () => {
   return (
     <>
-    
-   <Hero/>
-    {/* <Courses/>  */}
+      <Hero />
+      <Advantag />
+      {/* <Courses/>  */}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import './Hero.scss'
 const Hero = () => {
   return (
@@ -26,10 +27,10 @@ const Hero = () => {
           </p>
         </div>
         <div className="hero__bottom">
-          <a className="button button--light-green" href="/courses">
-            <span className="button__inner">
-              <span className="button__text">Kurslarni ko‘rish</span>
-            </span>
+          <a className="button button--light-green" to="/courses">
+            <button className="button__inner">
+              Kurslarni ko‘rish
+            </button>
           </a>
         </div>
       </div>
