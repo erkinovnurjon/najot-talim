@@ -1,4 +1,6 @@
 import React from "react";
+import "./Courses.scss";
+import { Link } from "react-router-dom";
 
 const Courses = () => {
   return (
@@ -12,16 +14,14 @@ const Courses = () => {
           <div className="courses-item">
             <a
               target="_blank"
-              href="https://smm.najottalim.uz/"
+              to="https://smm.najottalim.uz/"
               className="courses-item__link"
             >
               SMM onlayn
             </a>
             <p className="courses-item__title">
-              <p>
-                Ijtimoiy tarmoqlar orqali turli biznes va loyihalarni
-                rivojlantirishni o'rganasiz.
-              </p>
+              Ijtimoiy tarmoqlar orqali turli biznes va loyihalarni
+              rivojlantirishni o'rganasiz.
             </p>
           </div>
           <div className="courses-item">
@@ -185,10 +185,10 @@ const Courses = () => {
             </p>
           </div>
         </div>
-        <a className="link-w-icon index-professions-card__link" href="/courses">
-          <span className="link-w-icon__inner">
-            <span className="link-w-icon__text">Barcha kurslarni ko‘rish</span>
-          </span>
+        <a className="link-w-icon index-professions-card__link link-w-icon__text" href="https://najottalim.uz/courses">
+       
+         Barcha kurslarni ko‘rish
+    
         </a>
       </div>
     </div>
