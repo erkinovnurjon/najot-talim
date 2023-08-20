@@ -1,11 +1,10 @@
 @import "./header.css";
 @import "./about.scss";
 @import "./aboutcard.scss";
-<<<<<<< HEAD
 @import "./footer.css";
 @import "./login.css" ;
-=======
+
 @import "./aboutmedia.scss";
 @import "./footer.css";
 @import "./login.css" ;
->>>>>>> about
+
