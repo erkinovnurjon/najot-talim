@@ -1,0 +1,117 @@
+.banner-nt {
+    position: relative;
+    margin-bottom: 98px;
+    border-radius: 20px;
+    background-color: #f9f8f7;
+}
+.banner-nt__inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 100px;
+}
+.flex{
+    display: flex;
+}
+.flex .f-half.f-half-bg {
+    width: 50%;
+    background-image: url('https://najottalim.uz/_next/static/media/operator.698db118.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 12px 0 0 12px;
+}
+.flex .f-half.f-half-form {
+    padding: 32px;
+}
+.flex .f-half {
+    max-width: 512px;
+}
+.feedback-form {
+    background-color: #fff;
+    padding: 45px 40px;
+    border-radius: 16px;
+}
+.feedback-form__title {
+    font-size: 16px;
+    line-height:25px ;
+    font-weight: 500;
+    color: #607987;
+    margin-bottom: 32px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.feedback__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 0;
+    color: #0f1826;
+}
+.green-text {
+    color: #ba8d5b;
+    text-decoration: none;
+}
+.form-label {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -.02em;
+    color: rgba(0,0,0,.35);
+    margin-bottom: 6px;
+}
+.form-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    border: 1px solid #dadada;
+    border-radius: 100px;
+    outline: 1px solid transparent;
+}
+.form-input__num {
+    font-size: 16px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.form-label {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -.02em;
+    color: rgba(0,0,0,.35);
+    margin-bottom: 6px;
+}
+.from-group__phone {
+    position: relative;
+    z-index: 1;
+}
+.feedback-offert {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
+.feedback-offert__link {
+    text-decoration: none;
+    color: #ba8d5b;
+}
+.button {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: #ba8d5b;
+    color: #fff;
+    border-radius: 100px;
+    transition: .3s ease;
+}
