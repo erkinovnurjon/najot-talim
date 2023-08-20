@@ -96,4 +96,3 @@ const RegEmail = () => {
 export default RegEmail;
 
 
->>>>>>> a8c0c5460d809aef2773388e24f31c0a65b46f03
