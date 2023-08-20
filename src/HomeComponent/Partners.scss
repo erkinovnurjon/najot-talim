@@ -5,7 +5,9 @@
 // .partners__info {
 //     margin-bottom: 28px;
 // }
-
+.partners__info {
+    margin-bottom: 48px;
+}
 .partners__title {
     font-weight: 800;
     font-size: 32px;
@@ -68,8 +70,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    grid-gap: 31px;
-    gap: 31px;
+    grid-gap: 40px;
+    gap: 59px;
 }
 .partners__item-img {
     display: block;
@@ -78,16 +80,9 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.partners__list-mobile {
-    display: flex!important;
-    flex-wrap: wrap;
-    flex-direction: row;
-    grid-gap: 16px;
-    gap: 16px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
+
+
 
 .partners__item {
     display: flex;
@@ -98,9 +93,6 @@
     border-radius: 8px;
     padding: 16px 12px;
     transition: .3s ease;
-    display: block;
-    width: 136px;
-    height: 68px;
 }
 
 .partners__item-img--epam {

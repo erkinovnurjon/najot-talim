@@ -12,13 +12,13 @@ const Courses = () => {
         </p>
         <div className="courses__wrapper">
           <div className="courses-item">
-            <a
+            <Link
               target="_blank"
               to="https://smm.najottalim.uz/"
               className="courses-item__link"
             >
               SMM onlayn
-            </a>
+            </Link>
             <p className="courses-item__title">
               Ijtimoiy tarmoqlar orqali turli biznes va loyihalarni
               rivojlantirishni o'rganasiz.
@@ -185,11 +185,11 @@ const Courses = () => {
             </p>
           </div>
         </div>
-        <a className="link-w-icon index-professions-card__link link-w-icon__text" href="https://najottalim.uz/courses">
+        <Link className="link-w-icon index-professions-card__link link-w-icon__text" target="_blank" to="https://najottalim.uz/courses">
        
          Barcha kurslarni ko‘rish
     
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import Courses from "../HomeComponent/Courses";
 import Partners from "../HomeComponent/partners";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Reviews from "../HomeComponent/Reviews";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Advantag />
       <Courses />
       <Partners />
+      <Reviews/>
       <Footer />
     </>
   );

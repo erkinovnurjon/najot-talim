@@ -1,0 +1,138 @@
+.reviews {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.reviews__title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 24px;
+    color: #0f1826;
+}
+.reviews__desc {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #607987;
+    margin: 0 0 48px;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    align-items: center!important;
+    gap: 25px;
+}
+.swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+.swiper-slide {
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+.reviews__item {
+    position: relative;
+    max-width: 100%;
+    flex-basis: 100%;
+    height: 420px;
+    padding: 0 0.75rem;
+    box-sizing: border-box;
+    width: 256px;
+    margin: 0 auto;
+}
+
+.reviews__item-view-video {
+    position: absolute;
+    z-index: 2;
+    top: 16px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 6px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.reviews__item-icon--pause {
+    background-image: url(https://najottalim.uz/_next/static/media/icon-pause.4a3681c2.svg);
+}
+.reviews__item-icon {
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 50%;
+    background-color: #ba8d5b;
+    padding: 6px;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.reviews__item video {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 1.5rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border: 0.25rem solid transparent;
+}
+.reviews__item-backdrop {
+    position: absolute;
+    bottom: 0.25rem;
+    left: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 0.5rem);
+    background: linear-gradient(180deg,transparent -9.66%,rgba(0,0,0,.37) 69.5%,rgba(0,0,0,.65) 90.34%);
+    border-radius: 1.375rem;
+    z-index: 1;
+}
+.reviews__item-full-name {
+    bottom: 1.2rem;
+    font-size: 1rem;
+}
+.reviews__item-full-name, .reviews__item-position {
+    position: absolute;
+    left: 2.4rem;
+    width: calc(100% - 2.5rem);
+    z-index: 2;
+}
+.reviews__item-date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    color: #fff;
+    letter-spacing: -.02em;
+}
+.reviews__item-last-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -.02em;
+    color: #7cd1ac;
+}
+.reviews__item-first-name {
+    font-weight: 700;
+    margin-right: 4px;
+    color: #fff;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
