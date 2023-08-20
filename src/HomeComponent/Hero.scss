@@ -23,9 +23,12 @@
     color: #000;
     margin: 0 0 19px;
 }
+<<<<<<< HEAD
 .hero__title-table{
 
 }
+=======
+>>>>>>> about
 .hero__title-job{
     font-size: 40px;
     font-weight: 700;
@@ -40,6 +43,118 @@
     margin: 0 0 70px;
     color: #607987;
 }
+<<<<<<< HEAD
+=======
+
+.hero__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -.02em;
+    color: #000;
+}
+
+.text {
+    position: relative;
+    margin-left: 32px;
+    width: 400px;
+    height: 50px;
+    color: #ba8d5b;
+}
+@keyframes text-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+
+    10% {
+        opacity: 1;
+        transform: translate(0)
+    }
+
+    20% {
+        opacity: 1;
+        transform: translate(0)
+    }
+
+    30% {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+}
+.burad-t.t1, .burad-t.t2 {
+    animation-name: text-down;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.burad-t.t1, .burad-t.t2 {
+    animation-name: text-down;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.text .burad-t {
+    position: absolute;
+    left: -30px;
+    bottom: -24px;
+    margin-bottom: 12px;
+    opacity: 0;
+
+}
+
+.hero__title-text {
+    color: #000;
+}
+.burad-t.t2 {
+    animation-delay: 3s;
+}
+.burad-t.t1, .burad-t.t2 {
+    animation-name: text-down;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.burad-t.t2 {
+    animation-delay: 3s
+}
+
+.burad-t.t3 {
+    animation-iteration-count: infinite;
+    animation-delay: 6s
+}
+
+.burad-t.t3,.burad-t.t4 {
+    animation-name: text-down;
+    animation-duration: 12s
+}
+
+.burad-t.t4 {
+    animation-iteration-count: infinite;
+    animation-delay: 9s
+}
+
+.courses {
+    padding: 48px 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1
+}
+// .burad-t.t3 {
+//     animation-iteration-count: infinite;
+//     animation-delay: 6s;
+// }
+// .burad-t.t3, .burad-t.t4 {
+//     animation-name: text-down;
+//     animation-duration: 12s;
+// }
+// .burad-t.t3, .burad-t.t4 {
+//     animation-name: text-down;
+//     animation-duration: 12s;
+// }
+// .burad-t.t4 {
+//     animation-iteration-count: infinite;
+//     animation-delay: 9s;
+// }
+>>>>>>> about
 .button__inner {
     display: flex;
     align-items: center;

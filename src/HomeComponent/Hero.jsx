@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import React from "react";
 import {Link} from 'react-router-dom';
+=======
+>>>>>>> about
 import './Hero.scss'
 const Hero = () => {
   return (
@@ -8,7 +11,11 @@ const Hero = () => {
         <div className="hero__wrapper">
           <div className="hero__title">
             <div className="hero__title-table">
+<<<<<<< HEAD
               <div className="hero__title-job">Kasblarni</div>
+=======
+              <div className="hero__title-job\">Kasblarni</div>
+>>>>>>> about
               <div className="text">
                 <span className="burad-t t1">
                   “Najot Ta’lim”<span className="hero__title-text">da</span>

@@ -5,6 +5,9 @@ import Partners from "../HomeComponent/partners";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
+import Banner from "../HomeComponent/Banner";
+
+
 const Home = () => {
   return (
     <>
@@ -13,6 +16,8 @@ const Home = () => {
       <Advantag />
       <Courses />
       <Partners />
+      <Banner/>
+
       <Footer />
     </>
   );

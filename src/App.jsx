@@ -3,7 +3,6 @@ import { BrowserRouter as Router , Route , Routes} from "react-router-dom";
 
 
 import About from "./pages/About";
-
 import Home from "./pages/Home";
 import "./assets/css/normalize.css";
 import "./assets/css/main.css";
