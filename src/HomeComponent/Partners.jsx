@@ -25,7 +25,7 @@ const Partners = () => {
       >
         <div className="swiper-slide swiper-slide-active"
         >
-               <div className="partners__list-mobile">
+               <ul className="partners__list-mobile">
             <li className="partners__item">
             <div class="partners__item-img partners__item-img--epam"></div>
             </li>
@@ -44,7 +44,7 @@ const Partners = () => {
             <li className="partners__item">
             <div class="partners__item-img partners__item-img--texnomart"></div>
             </li>
-          </div>
+          </ul>
         </div>
     
     
