@@ -25,7 +25,7 @@
       gap: 35px;
 }
 .nav-right span{
-      font-size: 19px;
+      font-size: 16px;
       color: black;
 }
 .nav-right span:hover{
@@ -40,10 +40,10 @@
       background-color: white;
 }
 .nav-right button:hover{
-      border: 1px solid #f18f35;;
+      border: 1px solid #f18f35;
       outline: none;
 }
 .nav-right button:active{
-      background-color: #f18f35;;
+      background-color: #f18f35;
       color: white;
 }
