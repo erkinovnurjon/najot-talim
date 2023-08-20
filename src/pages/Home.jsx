@@ -1,9 +1,15 @@
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 
 const Home = () => {
   return (
     <>
-        <Header />
+        <div>
+          <Header />
+        </div>
+        <div className="lines">
+          <Footer />
+        </div>
     </>
   )
 }
