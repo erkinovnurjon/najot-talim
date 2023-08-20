@@ -49,6 +49,9 @@
       font-family: 'Lato' , sans-serif;
       padding: 8px 0;
 }
+.top-three ul li:hover{
+      text-decoration: underline;
+}
 .top-three h3{
       margin-top: 0;
 }
