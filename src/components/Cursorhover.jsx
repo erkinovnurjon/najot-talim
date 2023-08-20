@@ -6,7 +6,7 @@ const Cursorhover = () => {
       <div className="courses__hover">
         <ul className="breadcrumb">
           <li className="breadcrumb__link">
-            <Link className="breadcrumb__link-item" href="/">
+            <Link className="breadcrumb__link-item" to={"/"}>
               Bosh sahifa
             </Link>
             <img
@@ -17,7 +17,7 @@ const Cursorhover = () => {
           </li>
 
           <li className="breadcrumb__link">
-            <Link className="breadcrumb__link-item" href="/about">
+            <Link className=" item-color" href="/about">
               Kurslar
             </Link>
           </li>

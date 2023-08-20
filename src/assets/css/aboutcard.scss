@@ -21,9 +21,7 @@
     transition: box-shadow .2s ease;
     transition: calc(0.3s);
     margin-bottom: 32px;
-    }
-    :not(:last-child){
-        margin-right: 31px;
+    margin-right: 31px;
     }
 }
 
@@ -37,6 +35,22 @@
     margin-right: 24px;
     border-radius: 4px;
     color: #fff;
+}
+.marketing{
+    background-color: rgb(14, 177, 130);
+    color: rgb(255, 255, 255);
+}
+.dizayn{
+    background-color: rgb(174, 141, 94);
+    color: rgb(255, 255, 255);
+}
+.Dasturlash{
+    background-color: rgb(15, 24, 38);
+    color: rgb(255, 255, 255);
+}
+.Boshqa{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .about__card-link-bottom{
     display: flex;
@@ -64,7 +78,7 @@
     -webkit-box-orient: vertical;
     color: rgba(0,0,0,.7);
     }
-&-right:not(:first-child){
+&-right-images{
     inset: 0px;
     box-sizing: border-box;
     padding: 0px;
@@ -78,4 +92,11 @@
 .about__card-link-bottom-right-images{
        width: 208px;
     height: 208px; 
+}
+
+.about__top-images{
+    display: none;
+}
+.left-marketing{
+    display: none;
 }
