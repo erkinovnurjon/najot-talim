@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+.header{
+      width: 100%;
+      background-color: #f1f0ee;
+     
+     position: fixed;
+     
+}
+.navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.navbar-logo{
+      width: 200px;
+      height: 80px;img{
+            object-fit: cover;
+      }
+}
+.nav-right{
+      display: flex;
+      align-items: center;
+      gap: 35px;
+}
+.nav-right span{
+      font-size: 19px;
+      color: black;
+}
+.nav-right span:hover{
+      text-decoration: underline;
+}
+.nav-right button{
+      width: 120px;
+      height: 40px;
+      border-radius: 30px;
+      border: none;
+      background-color: white;
+}
+.nav-right button:hover{
+      border: 1px solid #f18f35;;
+      outline: none;
+}
+.nav-right button:active{
+      background-color: #f18f35;;
+      color: white;
+}

@@ -25,18 +25,32 @@ const Partners = () => {
       >
         <div className="swiper-slide swiper-slide-active"
         >
-          <div className="partners__list-mobile">
-            <img src="https://najottalim.uz/_next/static/media/logo-epam-active.207e0130.svg" className="partners__item"/>
-            <img src="https://najottalim.uz/_next/static/media/logo-itechart-active.4581f6ca.svg" className="partners__item"/>
-            <img src="https://najottalim.uz/_next/static/media/logo-humo-avtive.27cb7be3.svg" className="partners__item"/>
-            <img src="https://najottalim.uz/_next/static/media/logo-agro-active.930244da.svg" className="partners__item"/>
+               <div className="partners__list-mobile">
+            <li className="partners__item">
+            <div class="partners__item-img partners__item-img--epam"></div>
+            </li>
+            <li className="partners__item">
+            <div class="partners__item-img partners__item-img--itechart"></div>
+            </li>
+            <li className="partners__item">
+            <div class="partners__item-img partners__item-img--humo"></div>
+            </li>
+            <li className="partners__item">
+            <div class="partners__item-img partners__item-img--agro"></div>
+            </li>
+            <li className="partners__item">
+            <div class="partners__item-img partners__item-img--davr"></div>
+            </li>
+            <li className="partners__item">
+            <div class="partners__item-img partners__item-img--texnomart"></div>
+            </li>
           </div>
         </div>
     
     
 
         <div className="swiper-slide swiper-slide-next" >
-          <ul className="partners__list-mobile">
+          <div className="partners__list-mobile">
             <li className="partners__item">
               <div className="partners__item-img partners__item-img--soliq"></div>
             </li>
@@ -55,7 +69,7 @@ const Partners = () => {
             <li className="partners__item">
               <div className="partners__item-img partners__item-img--fido"></div>
             </li>
-          </ul>
+          </div>
         </div>
         
 
@@ -101,7 +115,7 @@ const Partners = () => {
 
 
 
-      <div className="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+      {/* <div className="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
         <span className="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
         <span className="swiper-pagination-bullet"></span>
         <span className="swiper-pagination-bullet"></span>
@@ -118,7 +132,7 @@ const Partners = () => {
         <button className="partners-btn partners-btn__preview">
           <img src="https://najottalim.uz/_next/static/media/icon-arrow-right.9288e8ca.svg" alt="" />
         </button>
-      </div>
+      </div> */}
     </div>
        </div>
       </div>

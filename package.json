@@ -1,5 +1,5 @@
 {
-  "name": "imtihon",
+  "name": "clear",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,7 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
-    "scss": "^0.2.4"
+    "sass": "^1.66.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -27,5 +27,9 @@
     "prettier": "3.0.2",
     "sass": "^1.66.1",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
 }
