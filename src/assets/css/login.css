@@ -1,0 +1,113 @@
+.login{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+}
+.login-right{
+      
+      margin-top: 100px;
+      margin-left: 100px;
+}
+.login-register{
+      text-align: center;
+}
+.login-wrapper{
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+}
+.login-left{
+      padding-top: 20px;
+      width: 50%;
+}
+.login-left img{
+      width: 100%;
+      height: 100%;
+}
+.login-phone span{
+      color: #BA8D5B;
+      font-family: 'Lato' , sans-serif;
+      font-size: 16px;
+}
+.login-line{
+      background-color: #BA8D5B;
+      height: 2px;
+      width: 150px;
+      margin-top: 10px;
+}
+
+form input{
+      width: 295px;
+      padding: 11px 16px 11px 16px;
+      border-radius: 20px;
+      border: 1px solid #BA8D5B;
+}
+.input-phone{
+      display: block;
+}
+.form-login h3{
+      color: #00000059;
+      font-family: 'Lato' , sans-serif;
+      font-size: 14px;
+      padding: 15px 0;
+}
+.form-login h4{
+      color: #2697FF;
+      font-family: 'Lato' , sans-serif;
+      font-size: 14px;
+      padding: 25px 0;
+}
+.form-login h4:hover{
+      text-decoration: underline;
+}
+.button-enter button{
+      width: 295px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      background-color: #BA8D5B;
+      color: #fff;
+}
+.button-enter button:hover{
+      background-color: #fff;
+      border: 1px solid #BA8D5B;
+      color: #BA8D5B;
+}
+.button-google button{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+      width: 295px;
+      height: 40px;
+      border-radius: 20px;
+      margin: 20px 0;
+      border: none;
+}
+.royhat{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+}
+.royhat h2{
+      color: #81755C;
+      font-size: 14px;
+      font-family: 'Lato' ,sans-serif;
+}
+.royhat span{
+      color: #BA8D5B;
+       font-size: 14px;
+      font-family: 'Lato' ,sans-serif;
+}
+.login-p{
+      color: #00000059;
+      font-size: 12px;
+      font-family: 'Lato' , sans-serif;
+      padding: 10px 0;
+}
+.login-buttons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
