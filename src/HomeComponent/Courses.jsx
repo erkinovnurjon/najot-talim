@@ -25,13 +25,13 @@ const Courses = () => {
             </p>
           </div>
           <div className="courses-item">
-            <a
+            <Link
               target="_blank"
-              href="https://smd.najottalim.uz/"
+              to="https://smd.najottalim.uz/"
               className="courses-item__link"
             >
               Social Media Design
-            </a>
+            </Link>
             <p className="courses-item__title">
               <p>
                 Ijtimoiy tarmoqlar uchun chiroyli va samarali postlar
@@ -40,13 +40,13 @@ const Courses = () => {
             </p>
           </div>
           <div className="courses-item">
-            <a
+            <Link
               target="_blank"
-              href="https://foundation.najottalim.uz/"
+              to="https://foundation.najottalim.uz/"
               className="courses-item__link"
             >
               Dasturlash foundation
-            </a>
+            </Link>
             <p className="courses-item__title">
               <p>
                 Foundation dasturlash kursida C va Python dasturlash tillari va
@@ -59,13 +59,13 @@ const Courses = () => {
             </p>
           </div>
           <div className="courses-item">
-            <a
+            <Link
               target="_blank"
-              href="https://dizayn.najottalim.uz/"
+              to="https://dizayn.najottalim.uz/"
               className="courses-item__link"
             >
               Adobe Illustrator
-            </a>
+            </Link>
             <p className="courses-item__title">
               <p>
                 Adobe Illustrator - vektorli grafikalar (chizmalar) bilan
@@ -74,9 +74,13 @@ const Courses = () => {
             </p>
           </div>
           <div className="courses-item">
-            <a className="courses-item__link" href="/courses/1">
+            <Link
+              className="courses-item__link"
+              to="https://najottalim.uz/courses/1"
+              target="_blank"
+            >
               .NET mutaxassislik kursi
-            </a>
+            </Link>
             <p className="courses-item__title">
               <p>
                 .NET mutaxassislik kursi yordamida universal C# dasturlash
@@ -91,21 +95,24 @@ const Courses = () => {
             </p>
           </div>
           <div className="courses-item">
-            <a
+            <Link
               target="_blank"
-              href="https://js.najottalim.uz/"
+              yo="https://js.najottalim.uz/"
               className="courses-item__link"
             >
               Node JS Telegram bot
-            </a>
+            </Link>
             <p className="courses-item__title">
               <p>Telegram bot yasash va dasturlashni 0 dan o'rganing!</p>
             </p>
           </div>
           <div className="courses-item">
-            <a className="courses-item__link" href="/courses/9">
+            <Link
+              className="courses-item__link"
+              to="https://najottalim.uz/courses/9"
+            >
               Kompyuter savodxonligi kursi
-            </a>
+            </Link>
             <p className="courses-item__title">
               <p>
                 Ushbu kurs orqali kompyuterdan foydalanish bo'yicha asosiy
@@ -114,13 +121,13 @@ const Courses = () => {
             </p>
           </div>
           <div className="courses-item">
-            <a
+            <Link
               target="_blank"
-              href="https://hbsakademiyasi.uz/"
+              to="https://hbsakademiyasi.uz/"
               className="courses-item__link"
             >
               HBS AKADEMIYASI
-            </a>
+            </Link>
             <p className="courses-item__title">
               <div className="t668__col t-col t-col_8 t-prefix_2">
                 <div
@@ -185,10 +192,11 @@ const Courses = () => {
             </p>
           </div>
         </div>
-        <Link className="link-w-icon index-professions-card__link link-w-icon__text" target="_blank" to="https://najottalim.uz/courses">
-       
-         Barcha kurslarni ko‘rish
-    
+        <Link
+          className="link-w-icon index-professions-card__link link-w-icon__text"
+          to="/cources"
+        >
+          Barcha kurslarni ko‘rish
         </Link>
       </div>
     </div>

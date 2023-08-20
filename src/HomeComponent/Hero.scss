@@ -23,9 +23,6 @@
     color: #000;
     margin: 0 0 19px;
 }
-.hero__title-table{
-
-}
 .hero__title-job{
     font-size: 40px;
     font-weight: 700;
@@ -39,6 +36,12 @@
     letter-spacing: -.02em;
     margin: 0 0 70px;
     color: #607987;
+}
+.button__inner:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 900;
+
 }
 .button__inner {
     display: flex;
