@@ -70,8 +70,8 @@ const Email = () => {
             </div>
             <div className="royhat">
                   <h2>Profilingiz yoqmi?</h2>
-                  <Link>
-                    <span>Royhatdan otish</span>
+                  <Link to={'/login/register'}>
+                  <span>Royhatdan otish</span>
                   </Link>
             </div>
           
@@ -86,65 +86,3 @@ const Email = () => {
 export default Email;
 
 
-// import React, { useState } from "react";
-
-// const Login = () => {
-//   const [email, setEmail] = useState("");
-//   const [password, setPassword] = useState("");
-//   const [emailError, setEmailError] = useState(false);
-//   const [passwordError, setPasswordError] = useState(false);
-
-//   const handleEmailChange = (event) => {
-//     setEmail(event.target.value);
-//   };
-
-//   const handlePasswordChange = (event) => {
-//     setPassword(event.target.value);
-//   };
-
-//   const handleSubmit = (event) => {
-//     event.preventDefault();
-
-//     if (email === "") {
-//       setEmailError(true);
-//     } else {
-//       setEmailError(false);
-//     }
-
-//     if (password === "") {
-//       setPasswordError(true);
-//     } else {
-//       setPasswordError(false);
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <form onSubmit={handleSubmit}>
-//         <div>
-//           <label>Email:</label>
-//           <input
-//             type="email"
-//             value={email}
-//             onChange={handleEmailChange}
-//             className={emailError ? "input-error" : ""}
-//           />
-//           {emailError && <p className="error-message">Email is required</p>}
-//         </div>
-//         <div>
-//           <label>Password:</label>
-//           <input
-//             type="password"
-//             value={password}
-//             onChange={handlePasswordChange}
-//             className={passwordError ? "input-error" : ""}
-//           />
-//           {passwordError && <p className="error-message">Password is required</p>}
-//         </div>
-//         <button type="submit">Login</button>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default Login;
