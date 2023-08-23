@@ -5,7 +5,9 @@
 // .partners__info {
 //     margin-bottom: 28px;
 // }
-
+.partners__info {
+    margin-bottom: 48px;
+}
 .partners__title {
     font-weight: 800;
     font-size: 32px;
@@ -68,8 +70,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    grid-gap: 31px;
-    gap: 31px;
+    grid-gap: 40px;
+    gap: 59px;
 }
 .partners__item-img {
     display: block;
@@ -78,16 +80,9 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.partners__list-mobile {
-    display: flex!important;
-    flex-wrap: wrap;
-    flex-direction: row;
-    grid-gap: 16px;
-    gap: 16px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
+
+
 
 .partners__item {
     display: flex;
@@ -98,41 +93,45 @@
     border-radius: 8px;
     padding: 16px 12px;
     transition: .3s ease;
-    display: block;
-    width: 136px;
-    height: 68px;
 }
-
+.partners__item:hover {
+    background-color: #fff;
+    box-shadow: 0 2px 18px 3px rgba(0,0,0,.05);
+    cursor: pointer;
+}
 .partners__item-img--epam {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-epam-active.207e0130.svg);
+    background-image: url(../assets/images/logo-epam-active.svg);
     filter: grayscale(1);
 }
+.partners__item-img--epam:hover {
+    fill: #005ff7;
+}
 .partners__item-img--itechart {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-itechart-active.4581f6ca.svg);
+    background-image: url(../assets/images/logo-itechart-active.svg);
     filter: grayscale(1);
 }
 .partners__item-img--humo {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-humo-avtive.27cb7be3.svg);
+    background-image: url(../assets/images/logo-humo-avtive.svg);
     filter: grayscale(1);
 }
 .partners__item-img--agro {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-agro-active.930244da.svg);
+    background-image: url(../assets/images/logo-agro-active.svg);
     filter: grayscale(1);
 }
 .partners__item-img--davr {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-davr-active.4df919e5.svg);
+    background-image: url(../assets/images/logo-davr-active.svg);
     filter: grayscale(1);
 }
 .partners__item-img--texnomart {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-texnomart-active.e7d56eb5.svg);
+    background-image: url(../assets/images/logo-texnomart-active.svg);
     filter: grayscale(1);
 }
 .partners__item-img--soliq {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-soliq-active.b11f8eef.svg);
+    background-image: url(../assets/images/logo-soliq-active.svg);
     filter: grayscale(1);
 }
 .partners__item-img--uzcard {
-    background-image: url(https://najottalim.uz/_next/static/media/logo-uzcard-active.8d40b858.svg);
+    background-image: url(../assets/images/logo-uzcard-active.svg);
     filter: grayscale(1);
 }
 .partners__item-img {

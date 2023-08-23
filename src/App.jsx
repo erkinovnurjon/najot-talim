@@ -11,6 +11,7 @@ import Email from "./pages/loginpages/Email";
 import Login from "./pages/loginpages/Login";
 import Register from "./pages/loginpages/Register";
 import RegEmail from "./pages/loginpages/RegEmail";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
     <Router>
      <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/" element={<Header />} />
       <Route path="/cources" element={<About />} />
       <Route path="/blog" element={<Blog />} />
-      
+  
        <Route path="/login" element={<Login />} />
         <Route path="/login/email" element={<Email />} />
         <Route path="/login/register" element={<Register />} />

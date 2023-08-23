@@ -64,18 +64,19 @@ const Footer = () => {
                         </div>
                         <div>
                               <h3>Tarmoqlar :</h3>
-                              <span>
-                                    <Link to={'/instagram.com'} >
-                                      <Instagram />
+                              <span style={{display:"flex", alignItems:"center", gap:"10px"}}>
+                                    <Link to={'/telegram.com'} >
+                                       <Telegram />
+                                       
                                     </Link>
                                     <Link to={'/facebook.com'} >
                                        <Facebook />
                                     </Link>
-                                    <Link to={'/telegram.com'} >
-                                       <Telegram />
-                                    </Link>
                                     <Link to={'/youtube.com'} >
                                      <Youtube />
+                                    </Link>
+                                    <Link to={'/instagram.com'} >
+                                      <Instagram />
                                     </Link>
                                     <Link to={'/linkedin.com'} >
                                       

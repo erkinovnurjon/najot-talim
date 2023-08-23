@@ -7,7 +7,6 @@ const Hero = () => {
         <div className="hero__wrapper">
           <div className="hero__title">
             <div className="hero__title-table">
-
               <div className="hero__title-job">Kasblarni</div>
 
               <div className="hero__title-job\">Kasblarni</div>

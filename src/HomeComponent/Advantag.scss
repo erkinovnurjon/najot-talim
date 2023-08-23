@@ -46,6 +46,7 @@
     line-height: 20px;
     letter-spacing: -.02em;
     color: #607987;
+    margin: 14px 0;
 }
 .our-advantages__more-btn {
     font-weight: 600;
@@ -53,7 +54,8 @@
     line-height: 20px;
     letter-spacing: -.02em;
     color: #0eb182;
-    display: block;
+    display: flex;
+    align-items: center;
     position: relative;
     z-index: 4;
     background-color: #fff;
@@ -61,7 +63,11 @@
     border: none;
     outline: none;
 }
-.our-advantages__more-btn-icon {
+.our-advantages__more-btn-iconbtn-icon:hover {
+    border: 1px solid rgb(255, 243, 116);
+
+}
+.our-advantages__more-btn-iconbtn-icon {
     width: 24px;
     height: 24px;
     padding: 8px;
@@ -70,7 +76,7 @@
     background-repeat: no-repeat;
     background-size: 9px 5px;
     background-position: 50%;
-    margin-left: 52px;
+    margin-left: 12px;
     border: 1px solid transparent;
 }
 
